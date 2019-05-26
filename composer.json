@@ -1,7 +1,7 @@
 {
   "name": "sadenergizer/laravel-okex",
-  "description": "Okex API wrapper for Laravel",
-  "tags": ["okex", "api", "laravel"],
+  "description": "Okex API wrapper",
+  "tags": ["okex", "api"],
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -13,8 +13,7 @@
   "require": {
     "php": ">=7.0.0",
     "ext-curl": "*",
-    "guzzlehttp/guzzle": "^6.3",
-    "laravel/framework": ">=5.3"
+    "guzzlehttp/guzzle": "^6.3"
   },
   "autoload": {
     "psr-4": {
