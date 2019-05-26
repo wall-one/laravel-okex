@@ -21,8 +21,8 @@ class Client
         $this->apiVersion = $version;
         $this->url = "{$url}/{$version}";
 
-        $this->key = array_get($auth, 'key');
-        $this->secret = array_get($auth, 'secret');
+        $this->key = $auth['key'];
+        $this->secret = $auth['secret'];
 
         $this->client = new RestClient([
             //'timeout'  => 10.0,
