@@ -5,7 +5,7 @@ namespace Sadenergizer\Okex;
 use GuzzleHttp\Client as RestClient;
 use GuzzleHttp\Exception\GuzzleException;
 
-class Client implements ClientContract
+class Client
 {
     protected $apiUrl;
     protected $apiVersion;
